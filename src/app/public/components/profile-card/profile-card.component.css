@@ -6,6 +6,22 @@
 .profile-image {
   width: 80px;
   height: 80px;
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-image: url("/assets/icon-profile.png");
   background-size: cover;
 }
+
+.form {
+  display: flex;
+  margin-top: 10px;
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  background-color: white;
+}
+
+.full-width {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
