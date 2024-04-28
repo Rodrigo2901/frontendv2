@@ -1,1 +1,27 @@
-<p>sidenav works!</p>
+<mat-drawer-container class="container" autosize>
+  <mat-drawer #drawer class="sidenav" mode="side">
+    <div class="header">
+      <button class="left-icon"><img src="assets/icon-profile.png" alt="icon-profile"></button>
+      <button class="right-icon" (click)="drawer.toggle()"><img src="assets/icon-menu.png" alt="icon-menu"></button>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="container-buttons">
+      <a href="#"><img src="assets/icon-search.png" alt="icon-search"><button class="button">Explorar Proyectos</button></a>
+      <a href="#"><img src="assets/icon-instalation.png" alt="icon-installation"><button class="button">Solicitar Instalación</button></a>
+      <a href="#"><img src="assets/logo.png" alt="icon-inicio"><button class="button">Inicio</button></a>
+      <a href="#"><img src="assets/icon-featureds.png" alt="icon-featured"><button class="button">Proyectos Destacados</button></a>
+      <a href="#"><img src="assets/icon-logout.png" alt="icon-logout"><button class="button">Salir</button></a>
+    </div>
+  </mat-drawer>
+  <div class="sidenav-pre-content" mode="side">
+    <button class="button" (click)="drawer.toggle()"><img src="assets/icon-menu.png" alt="icon-menu"></button>
+    <mat-divider></mat-divider>
+    <div class="container-buttons">
+      <a href="#"><button class="button"><img src="assets/icon-search.png" alt="icon-search"></button></a>
+      <a href="#"><button class="button"><img src="assets/icon-instalation.png" alt="icon-installation"></button></a>
+      <a href="#"><button class="button"><img src="assets/logo.png" alt="icon-inicio"></button></a>
+      <a href="#"><button class="button"><img src="assets/icon-featureds.png" alt="icon-featured"></button></a>
+      <a href="#"><button class="button"><img src="assets/icon-logout.png" alt="icon-logout"></button></a>
+    </div>
+  </div>
+</mat-drawer-container>

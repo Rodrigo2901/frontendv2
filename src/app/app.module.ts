@@ -30,8 +30,7 @@ import { SidenavComponent } from './public/components/sidenav/sidenav.component'
     FooterComponent,
     HomeComponent,
     ProyectCardComponent,
-    ProfileCardComponent,
-    SidenavComponent
+    ProfileCardComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +47,8 @@ import { SidenavComponent } from './public/components/sidenav/sidenav.component'
     MatPaginatorModule,
     MatToolbarModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    SidenavComponent
   ],
   providers: [
     provideAnimationsAsync()
