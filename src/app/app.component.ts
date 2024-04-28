@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'frontendv2';
+  title = 'PostNetQuote';
+  options = [
+    { path: '/home', title: 'Home'}
+  ]
 }

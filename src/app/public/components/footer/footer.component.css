@@ -1,0 +1,22 @@
+.footer {
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.text {
+  padding-left: 200px;
+  text-align: left;
+  color: gray;
+  font-size: 16px;
+  gap: 8px;
+}
+
+.social-icons {
+  padding-left: calc(80%);
+  text-align: right;
+  margin-right: 1rem;
+  color: white;
+  width: 200px;
+}
