@@ -1,8 +1,10 @@
 .container {
-  width: 225px;
+  width: 180px;
   height: 100%;
   border: 1px solid rgba(0, 0, 0, 0.5);
   background: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidenav-pre-content {
@@ -65,5 +67,4 @@
 .right-icon {
   margin-left: auto;
 }
-
 

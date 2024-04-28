@@ -1,1 +1,30 @@
+bodoy, html{
+  height: auto;
+  margin: 0;
+}
 
+.main-container {
+  display: flex;
+  min-height: 100vh;
+  height: auto;
+  background-color: honeydew;
+}
+
+.sidenav-container {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-container {
+  display: flex;
+  flex-grow: 1;
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+.footer-container {
+  min-height: 50px;
+  position: relative;
+}
