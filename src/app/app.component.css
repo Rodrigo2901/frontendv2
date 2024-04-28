@@ -1,7 +1,6 @@
 .mat-spacer {
   flex: 1 1 auto;
 }
-.body {
-  background-color: green;
-  color: green;
+.app {
+  background-color: honeydew;
 }

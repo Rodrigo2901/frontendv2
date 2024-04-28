@@ -21,6 +21,7 @@ import {MatPaginatorModule} from "@angular/material/paginator";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
+import { SidenavComponent } from './public/components/sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {MatGridListModule} from "@angular/material/grid-list";
     FooterComponent,
     HomeComponent,
     ProyectCardComponent,
-    ProfileCardComponent
+    ProfileCardComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
