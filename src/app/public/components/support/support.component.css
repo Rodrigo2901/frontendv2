@@ -9,13 +9,15 @@
 
 .card {
   background-color: #262626;
-  width: 80%;
+  width: 85%;
+  height: 100%;
   padding-left: 20px;
   display: flex;
   flex-direction: row;
 }
 
 .header {
+  padding-left: 20px;
   color: white;
   width: 100%;
 }
