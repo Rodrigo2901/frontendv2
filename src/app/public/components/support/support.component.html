@@ -1,10 +1,13 @@
-<div class="support-card">
+<div class="support-card" *ngIf="isVisible">
   <mat-card class="card">
     <div class="header">
       <mat-card-content>
         <mat-card-title style="font-size: 26px">¿Necesitas soporte al cliente?</mat-card-title>
         <p>Escríbenos y soporte técnico se pondrá en contacto</p>
       </mat-card-content>
+      <button mat-icon-button class="close-button" (click)="closeSupport()">
+        <mat-icon>close</mat-icon>
+      </button>
     </div>
     <div class="button">
       <mat-card-actions>
