@@ -22,14 +22,14 @@ import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
 import { SidenavComponent } from './public/components/sidenav/sidenav.component';
 import { ProjectCardComponent } from './public/components/project-card/project-card.component';
+import { SupportComponent } from './public/components/support/support.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     FooterComponent,
-    HomeComponent,
-
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +49,8 @@ import { ProjectCardComponent } from './public/components/project-card/project-c
     MatGridListModule,
     SidenavComponent,
     ProfileCardComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    SupportComponent
   ],
   providers: [
     provideAnimationsAsync()

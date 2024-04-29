@@ -3,11 +3,16 @@ bodoy, html{
   margin: 0;
 }
 
+body {
+  position: relative;
+}
+
 .main-container {
   display: flex;
   min-height: 100vh;
   height: auto;
   background-color: honeydew;
+  z-index: 1;
 }
 
 .sidenav-container {
@@ -32,7 +37,18 @@ bodoy, html{
   margin-bottom: 50px;
 }
 
+.support-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  width: auto;
+  height: 50px;
+}
+
 .footer-container {
   min-height: 50px;
   position: relative;
+  z-index: 1;
 }
