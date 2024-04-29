@@ -7,7 +7,6 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { ToolbarComponent } from './public/components/toolbar/toolbar.component';
 import { FooterComponent } from './public/components/footer/footer.component';
 import { HomeComponent } from './public/pages/home/home.component';
-import { ProyectCardComponent } from './public/components/proyect-card/proyect-card.component';
 import { ProfileCardComponent } from './public/components/profile-card/profile-card.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {HttpClientModule} from "@angular/common/http";
@@ -22,6 +21,7 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
 import { SidenavComponent } from './public/components/sidenav/sidenav.component';
+import { ProjectCardComponent } from './public/components/project-card/project-card.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,7 @@ import { SidenavComponent } from './public/components/sidenav/sidenav.component'
     ToolbarComponent,
     FooterComponent,
     HomeComponent,
-    ProyectCardComponent
+
   ],
   imports: [
     BrowserModule,
@@ -48,7 +48,8 @@ import { SidenavComponent } from './public/components/sidenav/sidenav.component'
     MatCardModule,
     MatGridListModule,
     SidenavComponent,
-    ProfileCardComponent
+    ProfileCardComponent,
+    ProjectCardComponent
   ],
   providers: [
     provideAnimationsAsync()

@@ -1,0 +1,26 @@
+.card {
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.card-content {
+  width: auto;
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+}
+
+.card-project {
+  background-color: lightgray;
+  min-width: 100px;
+  min-height: 100px;
+}
