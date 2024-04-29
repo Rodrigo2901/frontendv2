@@ -30,10 +30,13 @@
 }
 
 .container-buttons a {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   text-decoration: none;
+}
+
+.container-buttons div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 50px;
 }
 
