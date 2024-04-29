@@ -23,6 +23,7 @@ import {MatGridListModule} from "@angular/material/grid-list";
 import { SidenavComponent } from './public/components/sidenav/sidenav.component';
 import { ProjectCardComponent } from './public/components/project-card/project-card.component';
 import { SupportComponent } from './public/components/support/support.component';
+import {MatDrawer} from "@angular/material/sidenav";
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { SupportComponent } from './public/components/support/support.component'
     SidenavComponent,
     ProfileCardComponent,
     ProjectCardComponent,
-    SupportComponent
+    SupportComponent,
+    MatDrawer
   ],
   providers: [
     provideAnimationsAsync()

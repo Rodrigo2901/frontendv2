@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import {MatSidenavModule} from "@angular/material/sidenav";
+import {Component, ViewChild} from '@angular/core';
+import {MatDrawer, MatSidenavModule} from "@angular/material/sidenav";
 import {MatButtonModule} from "@angular/material/button";
 import {MatListItem} from "@angular/material/list";
 import {MatDivider} from "@angular/material/divider";
@@ -10,8 +10,7 @@ import {MatIcon} from "@angular/material/icon";
   templateUrl: './sidenav.component.html',
   styleUrl: './sidenav.component.css',
   standalone: true,
-  imports: [MatSidenavModule, MatButtonModule, MatListItem, MatDivider, MatIcon],
+  imports: [MatDrawer, MatSidenavModule, MatButtonModule, MatListItem, MatDivider, MatIcon],
 })
 export class SidenavComponent {
-  showFiller= false;
 }
